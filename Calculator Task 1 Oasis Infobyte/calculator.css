@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+h2 {
+    margin: auto;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.calculator {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-container {
+    border: 1px solid #fff;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0px 3px 15px rgba(120, 126, 103, 0.7);
+    font-size: 2rem;    
+}
+
+#input{
+    width: 23rem;
+    border: none;
+    outline: none;
+    padding: 3rem 4rem;
+    margin: 1.5rem;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(56, 54, 56, 0.7);
+    text-align: right;
+    font-size: 4rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button{
+    width: 4rem;
+    height: 5rem;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+    margin: 1rem;
+    font-size: large;
+    background: transparent;
+    box-shadow: 4px 5px 10px rgba(84, 84, 84, 0.7);
+    cursor: pointer;
+}
+
+
+.equal-btn:hover{
+    background-color: orange;
+}
+
+.opr-btn:hover{
+    color: green;
+    background-color: #00000048;
+}
+.number:hover
+{
+    color: yellow;
+    background-color: #00000048;
+}
+
+.color{
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    transform: translate(-50%, 0%);
+}
+
+#changeBg{
+    padding: 1rem 1.5rem;
+    background: transparent;
+    font-size: 2rem;
+    color: #fff;
+    box-shadow: 4px 5px 10px rgba(84, 84, 84, 0.7);
+    cursor: pointer;
+    border-radius: 5rem;
+    letter-spacing: 1px;
+}
